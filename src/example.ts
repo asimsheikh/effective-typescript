@@ -1,15 +1,15 @@
 interface State {
-  name: string;
-  capital: string;
+    name: string
+    capital: string
 }
-const states = [
-  { name: 'Alabama', capitol: 'Montgomery' },
-  { name: 'Alaska', capitol: 'Juneau' },
-  { name: 'Arizona', capitol: 'Phoneix' }
-];
+const states: State[] = [
+    { name: "Alabama", capital: "Montgomery" },
+    { name: "Alaska", capital: "Juneau" },
+    { name: "Arizona", capital: "Phoneix" },
+]
 
 for (const state of states) {
-  console.log(state.capital);
+    console.log(state.capital)
 }
 
-export {};
+export {}
