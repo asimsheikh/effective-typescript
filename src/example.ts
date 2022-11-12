@@ -12,4 +12,20 @@ for (const state of states) {
     console.log(state.capital)
 }
 
+const a = null + 7
+const b = [] + 12
+alert("Hello", "Typescript")
+
+function add(a, b) {
+    return a + b
+}
+
+add(null, 10)
+
+function add(a: number, b: number) {
+    return a + b
+}
+
+add(null, 10)
+
 export {}
