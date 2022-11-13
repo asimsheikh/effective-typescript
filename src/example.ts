@@ -22,10 +22,10 @@ function add(a, b) {
 
 add(null, 10)
 
-function add(a: number, b: number) {
+function add1(a: number, b: number) {
     return a + b
 }
 
-add(null, 10)
+add1(null, 10)
 
 export {}
